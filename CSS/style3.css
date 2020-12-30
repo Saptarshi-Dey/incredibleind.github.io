@@ -1,0 +1,197 @@
+.vb{
+    width: 95%;
+    height: 40vw;
+  }
+  .main1{
+    background: url("https://www.tripsavvy.com/thmb/t3vYB-ZTpFeZa3D--BqYA7fS6-w=/2309x1299/filters:fill(auto,1)/GettyImages-148863275-5a4854bd5b6e240037286f53.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%
+  }
+  #c1{
+    text-align: center;
+    color: rgb(2, 24, 37);
+    background-color: rgba(92, 154, 156,0.5);
+    font-weight: bolder;
+    font-size: 8vw;
+    font-family: cursive;
+  }
+  #p1{
+    text-decoration: double;
+    color:  rgba(197, 197, 30);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.25vw;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  }
+  .desc1{
+    margin: 5% 22%;
+    width: 60%;
+    background-color:rgba(9, 4, 58,0.8);
+  }
+  #p2{
+  background-color: rgba(238, 20, 20,0.8);
+  color: rgb(166, 245, 7);
+  font-size: 2.5vw;
+  }
+  
+  #card1:hover{
+  transform: scale(1.1);
+  }
+  #card2:hover{
+  transform: scale(1.1);
+  }
+  #card3:hover{
+  transform: scale(1.1);
+  }
+  #card4:hover{
+  transform: scale(1.1);
+  }
+  #card5:hover{
+  transform: scale(1.1);
+  }
+  
+  #incard1{
+  position: fixed;
+  width: 30vw;
+  height: 145vh;
+  background-color:rgba(100, 8, 128, 0.8);
+  }
+  #incard2{
+  position: fixed;
+  width: 30vw;
+  height: 40vw;
+  background-color:rgba(100, 8, 128, 0.8);
+  }
+  #incard3{
+  position: fixed;
+  width: 30vw;
+  height: 40vw;
+  background-color:rgba(100, 8, 128, 0.8);
+  }
+  #incard4{
+  position: fixed;
+  width: 30vw;
+  height: 40vw;
+  background-color:rgba(100, 8, 128, 0.8);
+  }
+  #incard5{
+  position: fixed;
+  width: 30vw;
+  height: 40vw;
+  background-color:rgba(100, 8, 128, 0.8);
+  }
+  #incard1>img{
+  width: 100vw;
+  height: 50%;
+  }
+  #incard2>img{
+  width:100vw;
+  height: 50%;
+  }
+  #incard3>img{
+  width:100vw;
+  height: 50%;
+  }
+  #incard4>img{
+  width:100vw;
+  height: 50%;
+  }
+  #incard5>img{
+  width:100vw;
+  height: 50%;
+  }
+  #inpara1{
+  font-size: 1.2vw;
+  font-weight: 2000;
+  color: rgb(126, 6, 30);
+  }
+  #inpara2{
+  font-size: 1.2vw;
+  font-weight: 2000;
+  color: rgb(126, 6, 30);
+  }
+  #inpara3{
+  font-size: 1.2vw;
+  font-weight: 2000;
+  color: rgb(126, 6, 30);
+  }
+  #inpara4{
+  font-size: 1.2vw;
+  font-weight: 2000;
+  color: rgb(126, 6, 30);
+  }
+  #inpara5{
+  font-size: 1.2vw;
+  font-weight: 2000;
+  color: rgb(126, 6, 30);
+  }
+  @media screen and (max-width: 640px){
+  #incard1{
+    width:90vw;
+    height:fit-content;
+    margin: 0vw 2vw;
+  }
+  }
+  @media screen and (max-width: 640px){
+  #inpara1{
+    font-size: 3.5vw;
+  }
+  }
+  @media screen and (max-width: 640px){
+  #incard2{
+    width:90vw;
+    height: fit-content;
+    margin: 0vw 2vw;
+  }
+  }
+  @media screen and (max-width: 640px){
+  #inpara2{
+    font-size: 3.5vw;
+  }
+  }
+  @media screen and (max-width: 640px){
+  #incard3{
+    width:90vw;
+    height: fit-content;
+    margin: 0vw 2vw;
+  }
+  }
+  @media screen and (max-width: 640px){
+  #inpara3{
+    font-size: 3.5vw;
+  }
+  }
+  @media screen and (max-width: 640px){
+  #incard4{
+    width:90vw;
+    height: fit-content;
+    margin: 0vw 2vw;
+  }
+  }
+  @media screen and (max-width: 640px){
+  #inpara4{
+    font-size: 3.5vw;
+  }
+  }
+  @media screen and (max-width: 640px){
+  #incard5{
+    width:90vw;
+    height: fit-content;
+    margin: 0vw 2vw;
+  }
+  }
+  @media screen and (max-width: 640px){
+  #inpara5{
+    font-size: 3.5vw;
+  }
+  }
+  
+  @media screen and (max-width:640px){
+  #p1{
+    font-size: 3.8vw;
+  }
+  }
+  

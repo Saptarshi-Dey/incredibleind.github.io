@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exotic Dishes of INDIA</title>
+    <link rel="icon" href="https://icon2.cleanpng.com/20180404/igw/kisspng-agra-delhi-package-tour-travel-agent-tamilnadu-5ac480b4412e27.341814031522827444267.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0b6d8e7b56.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/Tailwind.css"/>
+    <link rel="stylesheet" href="CSS/Sprites.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        .carousel-item{
+            height: 33rem;
+            width: 100%;
+            background: #777;
+            position: relative;
+            color: white;
+            overflow: hidden;
+        }
+        .cont{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            text-align: center;
+            padding: 70px;
+        }   
+      
+      
+   @media screen and (max-width: 1132px) and (orientation: portrait){
+      .left-adjust{
+          text-align: center;
+      }
+      .right-adjust{
+          text-align: center;
+      }
+      .right-float{
+          text-align: center;
+      }
+      .left-float{
+          text-align: center;
+      }
+   }
+   @media screen and (min-width: 1132px){
+      .left-adjust{
+          text-align: left;
+      }
+      .right-adjust{
+          text-align: right;
+      }
+      .right-float{
+          float: right;
+      }
+      .left-float{
+          float: left;
+      }
+   }
+   @media screen and (orientation: landscape){
+    .left-adjust{
+          text-align: left;
+      }
+      .right-adjust{
+          text-align: right;
+      }
+      .right-float{
+          float: right;
+      }
+      .left-float{
+          float: left;
+      }
+   } 
+    </style>
+
+</head>
+<body>
+
+  <div id="container">
+        <button class="BTN" onclick="openSlideMenu()" style="position: fixed; z-index: 5;">
+            <b>EXPLORE</b>
+            
+        </button>
+    <div id="side-menu" class="side-nav">
+        <a href="javascript:void();" class="btn-close" onclick="closeSlideMenu()" style="margin-top: 0px;"><font size="50px"><b>&times;</b></font></a>
+        <div id="list"> 
+        <br><br><a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <br><br><a href="home1.html"><i class="fab fa-old-republic"></i> Places</a>
+        <br><br><a href="Food.html"><i class="fas fa-utensils"></i> Food</a>
+        <br><br><a href="home2.html"><i class="fab fa-galactic-senate"></i> Festivals</a>
+        <br><br><a href="home3.html"><i class="fas fa-paw"></i> Nature</a>
+        <br><br><a href="know.html"><i class="fas fa-scroll"></i> Acknowledgement</a>
+    </div>
+    </div>
+    </div>
+
+
+
+<div id="myCarousel" class="carousel slide div1" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Resources/Slideshow/bhaji.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="cont">
+            <h1 style="font-size: 5rem;">Pav Bhaji</h1>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Resources/Slideshow/dahi.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="cont">
+            <h1 style="font-size: 5rem;">Dahi Vada</h1>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Resources/Slideshow/papdi.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="cont">
+            <h1 style="font-size: 5rem;">Papdi Chat</h1>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('Resources/Slideshow/gulab.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="cont">
+            <h1 style="font-size: 5rem;">Gulab Jamun</h1>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  
+
+
+  <section class="text-gray-500 bg-gray-900 body-font">
+    <div class="container px-5 py-24 mx-auto">
+
+      <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col" style="width: 90%;">
+        <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-gray-800 flex-shrink-0">
+          <img src="Resources/Images/Foods/Panipuri.png" style="border-radius: 100px;"/>
+        </div>
+        <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+          <h2 class="text-white text-lg title-font font-medium mb-2 left-adjust">Panipuri</h2>
+          <p class="leading-relaxed text-base left-adjust">Panipuri or Golgappa is a type of snack that originated in the Indian subcontinent, and is one of the most common street foods in Pakistan, India and Bangladesh. It consists of a round or ball-shaped, hollow puri, filled with a mixture of flavored water (known as imli pani), tamarind chutney, chili powder, chaat masala, potato mash, onion or chickpeas</p>
+          <a class="mt-3 text-indigo-500 inline-flex items-center left-float" href="https://en.wikipedia.org/wiki/Panipuri" target="_blank">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col" style="width: 90%;">
+        <div class="flex-grow sm:text-right text-center mt-6 sm:mt-0">
+          <h2 class="text-white text-lg title-font font-medium mb-2 right-adjust">Idli</h2>
+          <p class="leading-relaxed text-base right-adjust">Idli or idly is a type of savoury rice cake, originating from the Indian subcontinent, popular as breakfast foods in Southern India and in Sri Lanka. The cakes are made by steaming a batter consisting of fermented black lentils (de-husked) and rice. The fermentation process breaks down the starches so that they are more readily metabolized by the body. Idli has several variations, including rava idli, which is made from semolina</p>
+          <a class="mt-3 text-indigo-500 inline-flex items-center right-float" href="https://en.wikipedia.org/wiki/Idli" target="_blank">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="sm:w-32 order-first sm:order-none sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-gray-800 flex-shrink-0">
+          <img src="Resources/Images/Foods/Idli.png" style="border-radius: 100px;"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col" style="width: 90%;">
+        <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-gray-800 flex-shrink-0">
+          <img src="Resources/Images/Foods/Dosa.png" style="border-radius: 100px;"/>
+        </div>
+        <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+          <h2 class="text-white text-lg title-font font-medium mb-2 left-adjust">Dosa</h2>
+          <p class="leading-relaxed text-base left-adjust">Dosa is a rice pancake, originating from South India, made from a fermented batter predominantly consisting of lentils and rice. It is somewhat similar to a crepe in appearance, although savoury flavours are generally emphasized (sweet variants also exist). Its main ingredients are rice and black gram, ground together in a fine, smooth batter with a dash of salt, then fermented</p>
+          <a class="mt-3 text-indigo-500 inline-flex items-center left-float" href="https://en.wikipedia.org/wiki/Dosa" target="_blank">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col" style="width: 90%;">
+        <div class="flex-grow sm:text-right text-center mt-6 sm:mt-0">
+          <h2 class="text-white text-lg title-font font-medium mb-2 right-adjust">Biriyani</h2>
+          <p class="leading-relaxed text-base right-adjust">Biryani is a mixed rice dish with its origins among the Muslims of the Indian subcontinent. It is made with Indian spices, rice, and meat (chicken, beef, goat, pork, lamb, prawn, or fish), or vegetables and sometimes, in addition, eggs and/or potatoes in certain regional varieties. Biryani is popular throughout India, as well as among its diaspora</p>
+          <a class="mt-3 text-indigo-500 inline-flex items-center right-float" href="https://en.wikipedia.org/wiki/Biryani" target="_blank">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="sm:w-32 order-first sm:order-none sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-gray-800 flex-shrink-0">
+          <img src="Resources/Images/Foods/Biriyani.png" style="border-radius: 100px;"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col" style="width: 90%;">
+        <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-gray-800 flex-shrink-0">
+          <img src="Resources/Images/Foods/Rasgulla.png" style="border-radius: 100px;"/>
+        </div>
+        <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+          <h2 class="text-white text-lg title-font font-medium mb-2 left-adjust">Rasgulla</h2>
+          <p class="leading-relaxed text-base left-adjust">Rasgulla or Roshogolla is a South Asian syrupy dessert popular in the Indian subcontinent and regions with South Asian diaspora. It is made from ball-shaped dumplings of chhena (an Indian cottage cheese) and semolina dough, cooked in light syrup made of sugar. This is done until the syrup permeates the dumplings</p>
+          <a class="mt-3 text-indigo-500 inline-flex items-center left-float" href="https://en.wikipedia.org/wiki/Rasgulla" target="_blank">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="text-gray-400 bg-gray-900 body-font">
+    <div class="bg-gray-800 bg-opacity-75" style="text-align: right;">
+      <p style="text-align: center; font-size: 1.5rem; color: white; padding: 10px;">
+        Greetings from INDIA <br> <b style="font-size: 1.7rem;">Proud to be an Indian</b>
+      </p>
+    </div>
+ </footer>
+
+    <script type="text/javascript">
+        function openSlideMenu(){
+           document.getElementById('side-menu').style.width = '300px';}
+    
+        function closeSlideMenu(){
+           document.getElementById('side-menu').style.width = '0';}
+
+    </script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
